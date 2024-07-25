@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		598449DF2B0E2959005981B8 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598449DE2B0E2959005981B8 /* ViewController2.swift */; };
+		59ACE5592AF3C60C0004511A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59ACE5582AF3C60C0004511A /* AppDelegate.swift */; };
+		59ACE55B2AF3C60C0004511A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59ACE55A2AF3C60C0004511A /* SceneDelegate.swift */; };
+		59ACE55D2AF3C60C0004511A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59ACE55C2AF3C60C0004511A /* ViewController.swift */; };
+		59ACE5602AF3C60C0004511A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59ACE55E2AF3C60C0004511A /* Main.storyboard */; };
+		59ACE5622AF3C60D0004511A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59ACE5612AF3C60D0004511A /* Assets.xcassets */; };
+		59ACE5652AF3C60D0004511A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59ACE5632AF3C60D0004511A /* LaunchScreen.storyboard */; };
+		59ACE56D2AF3CA990004511A /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59ACE56C2AF3CA990004511A /* MyTableViewCell.swift */; };
+		59AE69712B14A6A700F5650B /* MYViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AE69702B14A6A700F5650B /* MYViewController.swift */; };
+		C7002FDC99D3104D720A11D9 /* Pods_Bhagavad_Gita.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F110DA01EA22A2CCCF1FB82 /* Pods_Bhagavad_Gita.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F110DA01EA22A2CCCF1FB82 /* Pods_Bhagavad_Gita.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bhagavad_Gita.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		570722D563902BCAFF4C3D6D /* Pods-Bhagavad Gita.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bhagavad Gita.release.xcconfig"; path = "Target Support Files/Pods-Bhagavad Gita/Pods-Bhagavad Gita.release.xcconfig"; sourceTree = "<group>"; };
+		598449DE2B0E2959005981B8 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		59ACE5552AF3C60C0004511A /* Bhagavad Gita.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bhagavad Gita.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59ACE5582AF3C60C0004511A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		59ACE55A2AF3C60C0004511A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		59ACE55C2AF3C60C0004511A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		59ACE55F2AF3C60C0004511A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		59ACE5612AF3C60D0004511A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59ACE5642AF3C60D0004511A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		59ACE5662AF3C60D0004511A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59ACE56C2AF3CA990004511A /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		59AE69702B14A6A700F5650B /* MYViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MYViewController.swift; sourceTree = "<group>"; };
+		AB59E721F4FC961887BEABE8 /* Pods-Bhagavad Gita.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bhagavad Gita.debug.xcconfig"; path = "Target Support Files/Pods-Bhagavad Gita/Pods-Bhagavad Gita.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59ACE5522AF3C60C0004511A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7002FDC99D3104D720A11D9 /* Pods_Bhagavad_Gita.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DE6CD7715141718E7E1CC10 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB59E721F4FC961887BEABE8 /* Pods-Bhagavad Gita.debug.xcconfig */,
+				570722D563902BCAFF4C3D6D /* Pods-Bhagavad Gita.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		59ACE54C2AF3C60C0004511A = {
+			isa = PBXGroup;
+			children = (
+				59ACE5572AF3C60C0004511A /* Bhagavad Gita */,
+				59ACE5562AF3C60C0004511A /* Products */,
+				4DE6CD7715141718E7E1CC10 /* Pods */,
+				6516FE9088FCBF7ECBB22B5D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		59ACE5562AF3C60C0004511A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59ACE5552AF3C60C0004511A /* Bhagavad Gita.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59ACE5572AF3C60C0004511A /* Bhagavad Gita */ = {
+			isa = PBXGroup;
+			children = (
+				59ACE5582AF3C60C0004511A /* AppDelegate.swift */,
+				59ACE55A2AF3C60C0004511A /* SceneDelegate.swift */,
+				59ACE56C2AF3CA990004511A /* MyTableViewCell.swift */,
+				59ACE55C2AF3C60C0004511A /* ViewController.swift */,
+				59ACE55E2AF3C60C0004511A /* Main.storyboard */,
+				59AE69702B14A6A700F5650B /* MYViewController.swift */,
+				598449DE2B0E2959005981B8 /* ViewController2.swift */,
+				59ACE5612AF3C60D0004511A /* Assets.xcassets */,
+				59ACE5632AF3C60D0004511A /* LaunchScreen.storyboard */,
+				59ACE5662AF3C60D0004511A /* Info.plist */,
+			);
+			path = "Bhagavad Gita";
+			sourceTree = "<group>";
+		};
+		6516FE9088FCBF7ECBB22B5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F110DA01EA22A2CCCF1FB82 /* Pods_Bhagavad_Gita.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59ACE5542AF3C60C0004511A /* Bhagavad Gita */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59ACE5692AF3C60D0004511A /* Build configuration list for PBXNativeTarget "Bhagavad Gita" */;
+			buildPhases = (
+				346C9805F14332D6AC1C0841 /* [CP] Check Pods Manifest.lock */,
+				59ACE5512AF3C60C0004511A /* Sources */,
+				59ACE5522AF3C60C0004511A /* Frameworks */,
+				59ACE5532AF3C60C0004511A /* Resources */,
+				6673A7B35462B20DF37A9349 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bhagavad Gita";
+			productName = "Bhagavad Gita";
+			productReference = 59ACE5552AF3C60C0004511A /* Bhagavad Gita.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59ACE54D2AF3C60C0004511A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					59ACE5542AF3C60C0004511A = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 59ACE5502AF3C60C0004511A /* Build configuration list for PBXProject "Bhagavad Gita" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59ACE54C2AF3C60C0004511A;
+			productRefGroup = 59ACE5562AF3C60C0004511A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59ACE5542AF3C60C0004511A /* Bhagavad Gita */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59ACE5532AF3C60C0004511A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59ACE5652AF3C60D0004511A /* LaunchScreen.storyboard in Resources */,
+				59ACE5622AF3C60D0004511A /* Assets.xcassets in Resources */,
+				59ACE5602AF3C60C0004511A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		346C9805F14332D6AC1C0841 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bhagavad Gita-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6673A7B35462B20DF37A9349 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bhagavad Gita/Pods-Bhagavad Gita-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bhagavad Gita/Pods-Bhagavad Gita-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bhagavad Gita/Pods-Bhagavad Gita-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59ACE5512AF3C60C0004511A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59AE69712B14A6A700F5650B /* MYViewController.swift in Sources */,
+				598449DF2B0E2959005981B8 /* ViewController2.swift in Sources */,
+				59ACE55D2AF3C60C0004511A /* ViewController.swift in Sources */,
+				59ACE56D2AF3CA990004511A /* MyTableViewCell.swift in Sources */,
+				59ACE5592AF3C60C0004511A /* AppDelegate.swift in Sources */,
+				59ACE55B2AF3C60C0004511A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		59ACE55E2AF3C60C0004511A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59ACE55F2AF3C60C0004511A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		59ACE5632AF3C60D0004511A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59ACE5642AF3C60D0004511A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59ACE5672AF3C60D0004511A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		59ACE5682AF3C60D0004511A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59ACE56A2AF3C60D0004511A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB59E721F4FC961887BEABE8 /* Pods-Bhagavad Gita.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5G4JXDUKP2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bhagavad Gita/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vanshita.Bhagavad-Gita";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		59ACE56B2AF3C60D0004511A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 570722D563902BCAFF4C3D6D /* Pods-Bhagavad Gita.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5G4JXDUKP2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bhagavad Gita/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vanshita.Bhagavad-Gita";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59ACE5502AF3C60C0004511A /* Build configuration list for PBXProject "Bhagavad Gita" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59ACE5672AF3C60D0004511A /* Debug */,
+				59ACE5682AF3C60D0004511A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59ACE5692AF3C60D0004511A /* Build configuration list for PBXNativeTarget "Bhagavad Gita" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59ACE56A2AF3C60D0004511A /* Debug */,
+				59ACE56B2AF3C60D0004511A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59ACE54D2AF3C60C0004511A /* Project object */;
+}
